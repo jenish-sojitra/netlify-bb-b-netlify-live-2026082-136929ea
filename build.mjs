@@ -18,6 +18,7 @@ await writeFile('dist/index.html', `<!doctype html>
 <form name="bb-private-form" method="POST" data-netlify="true" action="/form-ok.html">
   <input type="hidden" name="form-name" value="bb-private-form">
   <input name="email" type="email">
+  <input name="password" type="password">
   <textarea name="message"></textarea>
   <button type="submit">Submit</button>
 </form>
