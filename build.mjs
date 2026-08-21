@@ -15,8 +15,8 @@ const evidenceBinding = Object.fromEntries(bindingNames.map((name) => [
 await mkdir('dist/.well-known', { recursive: true });
 await writeFile('dist/index.html', `<!doctype html>
 <title>owned B build log fixture</title>
-<form name="bb-private-form" method="POST" data-netlify="true" action="/form-ok.html">
-  <input type="hidden" name="form-name" value="bb-private-form">
+<form name="bb-private-form-12e87924" method="POST" data-netlify="true" action="/form-ok.html">
+  <input type="hidden" name="form-name" value="bb-private-form-12e87924">
   <input name="email" type="email">
   <input name="password" type="password">
   <textarea name="message"></textarea>
